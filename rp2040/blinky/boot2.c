@@ -9,7 +9,6 @@
 #define SIO_GPIO_OUT_XOR *(volatile uint32_t *) (0xd000001c)
 
 // Main entry point
-__attribute__((section(".crc"))) unsigned char crc[4] = {0x8a, 0x52, 0x48, 0x44};
 __attribute__((section(".boot2"))) void bootStage2(void)
 {
     // Bring IO_BANK0 out of reset state

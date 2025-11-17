@@ -5,3 +5,5 @@
 **/*.out
 **/*.hex
 utils
+**/build/*
+build
