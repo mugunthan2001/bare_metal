@@ -7,3 +7,4 @@
 utils
 **/build/*
 build
+**/*.pdf
