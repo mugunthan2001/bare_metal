@@ -3,4 +3,5 @@
 **/*.uf2
 **/*.bin
 **/*.out
+**/*.hex
 utils
